@@ -1,0 +1,8 @@
+cradle:
+  stack:
+    - path: "./src/"
+      component: "project-template:lib"
+    - path: "./test/"
+      component: "project-template:test:spec"
+    - path: "./Setup.hs"
+      component: "Cabal"

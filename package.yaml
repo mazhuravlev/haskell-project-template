@@ -24,7 +24,7 @@ library:
 executables:
   project-template:
     ghc-options: -Wall
-    source-dirs:      src
+    source-dirs:      app
     main:             Main.hs
 
 tests:

@@ -6,3 +6,7 @@ cradle:
       component: "project-template:test:spec"
     - path: "./Setup.hs"
       component: "Cabal"
+    - path: "./app/Main.hs"
+      component: "project-template:exe:project-template-exe"
+    - path: "./app/Paths_project_template.hs"
+      component: "project-template:exe:project-template-exe"
